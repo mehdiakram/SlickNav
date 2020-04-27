@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width">
+
+<title>SlickNav Demo - Responsive Mobile Nav Plugin for jQuery</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+</head>
+<body>
+<h1>Resize browser to view mobile menu</h1>
+Original Menu hidden on mobile
+
+<div class="rt-mainnav">
+    <ul id="menu" class="royalnav">
+    <li><a href="#">Parent 1</a>
+        <ul>
+            <li><a href="#">item 3</a></li>
+            <li><a href="#">Parent 2</a>
+                <ul>
+                    <li><a href="#">item 8</a></li>
+                    <li><a href="#">item 9</a></li>
+                    <li><a href="#">item 10</a></li>
+                </ul>
+            </li>
+            <li><a href="#">item 4</a></li>
+        </ul>
+    </li>
+    <li><a href="#">item 1</a></li>
+    <li><a href="#">Parent 1</a>
+        <ul>
+            <li><a href="#">item 5</a></li>
+            <li><a href="#">item 6</a></li>
+            <li><a href="#">item 7</a></li>
+        </ul>
+    </li>
+    </ul>
+</div>
+
+<script src="js/jquery.slicknav.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#menu').slicknav();
+});
+</script>
+</body>
+</html>
