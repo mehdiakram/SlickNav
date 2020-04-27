@@ -61,6 +61,7 @@ Kindle landscape (1024px)
 
 @media only screen and (max-width: 991px) {
 .js #menu, .rt-mainnav{display:none;}
+.slicknav_menu {display: block;}
 .js .slicknav_menu {border-radius: 3px;display: block;margin: 0 auto;width: 100%;}
 /* Mobile Menu Core Style */
 .slicknav_btn { position: relative; display: block; vertical-align: middle; overflow: hidden; padding: 0.438em 0.625em 0.438em 0.625em; line-height: 1.125em; cursor: pointer; }
