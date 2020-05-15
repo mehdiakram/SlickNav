@@ -33,7 +33,7 @@ padding: 15px 11px; font-size: 14px;  position: relative;}
 
 /* submenu positioning */
 .royalnav ul {  position: absolute;  white-space: nowrap; background: #0DCC2D;  z-index: 1;  left: -99999em; min-width: 150px;}
-.royalnav > li:hover > ul {  left: auto;  padding-top: 5px  ;  min-width: 150px;}
+.royalnav > li:hover > ul {  left: auto;  padding-top: 5px;}
 .royalnav > li li ul {border-left:1px solid #fff;}
 .royalnav > li li:hover > ul {left: 100%;  top: -1px;}
 
